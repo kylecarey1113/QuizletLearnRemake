@@ -1,5 +1,5 @@
-def pull_flashcards():
-    file_flashcards = open("Flashcards", 'r')
+def pull_flashcards(filename):
+    file_flashcards = open(filename, 'r')
     list_flashcards = file_flashcards.readlines()
     
     terms = []

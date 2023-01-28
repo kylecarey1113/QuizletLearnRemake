@@ -1,0 +1,22 @@
+Ask the user what file they want to read information from 
+
+Read information from a text file and import it
+
+split the information to two seperate lists called terms and definitions
+
+make a list that is the same length as terms list (and definition list) to keep track of how many success each 'flashcard' has
+    Number of successes and corresponding function
+        0 - give a random term and 4 random definition. pick the correct definition
+        1 - give a random definition and 4 random terms. pick the correct term
+        2 - give a random definition and prompt the user to type in the corresponding term
+        3 - give a rnadom term and prompt the user to type in the corresponding definition
+
+make a function that will pick a random number from 0 to len(terms) and prompt the user
+to do one of the four above things, depending on what the value in the list is
+    if the random number picked corresponds with a task that is already at 3, skip that task
+
+when the user reaches 25%, 50%, and 75% completion, tell them that they have that much of the flashcard set done.
+
+when the entire list is full of 3s, tell the user that they have finished the flashcards
+
+end the program
