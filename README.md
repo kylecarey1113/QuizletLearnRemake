@@ -1,2 +1,2 @@
 # QuizletLearnRemake
-The is an attempt to remake the functionality (and eventually to appearance) of Quizlet's Learn feature
+The is an attempt to remake the functionality (and eventually appearance) of Quizlet's Learn feature
